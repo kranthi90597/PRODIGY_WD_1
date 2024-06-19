@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#appContainer {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+#head {
+    font-style: serif;
+    color: rgb(206, 100, 34);
+    font-size: 8vw;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+
+#controls {
+    margin-top: 0;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #257539;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e5e3b;
+}
+
+.weatherDisplay {
+    border: 0 solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+}
+
+.weatherDisplay h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weatherDisplay p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-family: italic;
+}
